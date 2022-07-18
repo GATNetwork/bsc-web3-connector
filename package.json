@@ -1,9 +1,9 @@
 {
-  "name": "@binance-chain/bsc-connector",
+  "name": "@gatnetwork/bsc-connector",
   "publishConfig": {
     "access": "public"
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple, maximally extensible, dependency minimized framework for building modern Bsc dApps",
   "keywords": [
     "react",
@@ -20,10 +20,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/binance-chain-npm/bsc-web3-connector.git"
+    "url": "https://github.com/GATNetwork/bsc-web3-connector"
   },
   "main": "dist/index.js",
-  "module": "dist/web3-connector.esm.js",
+  "module": "./dist/bsc-connector.esm.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
@@ -44,5 +44,8 @@
     "semantic-release": "^17.2.2",
     "tsdx": "^0.14.1",
     "tslib": "^2.0.3"
+  },
+  "publishConfig": {
+    "cache": "cache/.npm"
   }
 }
